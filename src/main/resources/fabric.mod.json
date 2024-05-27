@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "hometaker",
+	"version": "${version}",
+	"name": "Hometaker",
+	"description": "This simple mod adds an object called Hometaker to the game, which teleports the user to their spwan point",
+	"authors": [
+		"Rakheros"
+	],
+	"contact": {
+		"sources": "https://github.com/rakheros/hometaker"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hometaker/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.rakheros.hometaker.Hometaker"
+		]
+	},
+	"mixins": [
+		"hometaker.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

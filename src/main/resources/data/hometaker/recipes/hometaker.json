@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "hometaker",
+    "key": {
+      "C": {
+        "item": "minecraft:compass"
+      },
+      "W": {
+        "tag": "minecraft:wool"
+      }
+    },
+    "pattern": [
+      " W ",
+      "WCW",
+      " W "
+    ],
+    "result": {
+      "count": 4,
+      "item": "hometaker:hometaker"
+    },
+    "show_notification": true
+}
